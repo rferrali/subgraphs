@@ -1,0 +1,13 @@
+Package: subgraphs
+Type: Package
+Title: Fast enumeration of connected subgraphs
+Version: 1.0.0
+Authors@R: person("Romain", "Ferrali", email = "rferrali@gmail.com", role = c("aut", "cre"))
+Description: Enumerate all connected subgraphs of a graph using an efficient algorithm. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: 
+    Rcpp (>= 1.0.2),
+    Matrix (>= 1.2)
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1
