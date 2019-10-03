@@ -3,9 +3,11 @@ Type: Package
 Title: Fast enumeration of connected subgraphs
 Version: 1.0.0
 Authors@R: person("Romain", "Ferrali", email = "rferrali@gmail.com", role = c("aut", "cre"))
-Description: Enumerate all connected subgraphs of a graph using an efficient algorithm. 
+Maintainer: Romain Ferrali <rferrali@gmail.com>
+Description: Enumerate all connected subgraphs of a graph using the Depth-First-Search Enumeration algorithm of Skibski et al. (2018) 
 License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
 Imports: 
     Rcpp (>= 1.0.2),
     Matrix (>= 1.2)
