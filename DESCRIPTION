@@ -1,6 +1,6 @@
 Package: subgraphs
 Type: Package
-Title: Fast enumeration of connected subgraphs
+Title: Fast Enumeration of Connected Subgraphs
 Version: 1.0.0
 Authors@R: person("Romain", "Ferrali", email = "rferrali@gmail.com", role = c("aut", "cre"))
 Maintainer: Romain Ferrali <rferrali@gmail.com>

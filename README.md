@@ -11,10 +11,10 @@ The goal of subgraphs is to enumerate efficiently all connected
 subgraphs of a graph. I use the algorithm of Skibski et al (2019),
 implemented in C++. Because I hope that this package will be someday
 integrated into the main `R` packages for network analysis
-(i.e. `igraph` and `network`), I purposedly do not rely on their
-formats to store graphs, and instead just use (sparse) adjacency
-matrices. To convert a graph to an adjacency matrix, use
-`igraph::as_ajd` or `network::as.matrix`.
+(i.e. `igraph` and `network`), I purposely do not rely on their formats
+to store graphs, and instead just use (sparse) adjacency matrices. To
+convert a graph to an adjacency matrix, use `igraph::as_ajd` or
+`network::as.matrix`.
 
 ## Installation
 
