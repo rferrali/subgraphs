@@ -37,7 +37,12 @@ subgraphs <- function(g) {
 
   table <- mapply(
     function(v, i) {
-      cbind(i-1, v, (1:length(v))-1)
+      if(length(v) > 0) {
+        cbind(i-1, v, (1:length(v))-1)  
+      } else {
+        matrix(0, 0, 3)
+      }
+      
     },
     m, 1:length(m)
   )

@@ -1,7 +1,7 @@
 Package: subgraphs
 Type: Package
 Title: Fast Enumeration of Connected Subgraphs
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person("Romain", "Ferrali", email = "rferrali@gmail.com", role = c("aut", "cre"))
 Maintainer: Romain Ferrali <rferrali@gmail.com>
 Description: Enumerate all connected subgraphs of a graph using the Depth-First-Search Enumeration algorithm of 
