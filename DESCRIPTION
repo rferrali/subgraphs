@@ -4,7 +4,7 @@ Title: Fast Enumeration of Connected Subgraphs
 Version: 1.0.0
 Authors@R: person("Romain", "Ferrali", email = "rferrali@gmail.com", role = c("aut", "cre"))
 Maintainer: Romain Ferrali <rferrali@gmail.com>
-Description: Enumerate all connected subgraphs of a graph using the Depth-First-Search Enumeration algorithm of Skibski et al (2018). 
+Description: Enumerate all connected subgraphs of a graph using the Depth-First-Search Enumeration algorithm of 
  O. Skibski, T. Rahwan, T. Michalak, M. Wooldridge (2019) <doi:10.1145/3235026>
 License: MIT + file LICENSE
 Encoding: UTF-8
