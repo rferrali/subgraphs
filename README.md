@@ -13,7 +13,7 @@ implemented in C++. Because I hope that this package will be someday
 integrated into the main `R` packages for network analysis
 (i.e. `igraph` and `network`), I purposely do not rely on their formats
 to store graphs, and instead just use (sparse) adjacency matrices. To
-convert a graph to an adjacency matrix, use `igraph::as_ajd` or
+convert a graph to an adjacency matrix, use `igraph::as_adj` or
 `network::as.matrix`.
 
 ## Installation
